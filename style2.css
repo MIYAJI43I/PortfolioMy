@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background: #D9C2BD;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+.Name {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle
+}
+
+.Name h1 {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: bold;
+    color: #76504F;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.Name span {
+    color: #A37E7E;
+}
+
+
+img.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
+}
+
+.Name p {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    color: #76504F;
+    margin: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.Name span {
+    color: #947171;
+}
+
+span.slogan {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgba(128, 97, 97, 0.7);
+    margin-top: -1%;
+
+}
+.m p {
+    font-family: Georgia;
+    color: #b48f8f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    
+}
+p.bio {
+    margin: auto; 
+    width: 50%; 
+    padding: -2%; 
+    font-size: 15px;
+    font-family: Georgia;
+    line-height: 20px;
+    
+}
+
+p.Activities {
+    color: #9b7575;
+    margin: auto; 
+    width: 50%; 
+    padding: -2%; 
+    font-size: 15px;
+    font-family: Georgia;
+}
+
+p.W {
+    margin: auto; 
+    width: 50%; 
+    padding: -2%; 
+    font-size: 15px;
+    font-family: Georgia;
+    margin-top: -1%;
+}
+
+p.Skill {
+    color: #9b7575;
+    margin: auto; 
+    width: 50%; 
+    padding: -2%; 
+    font-size: 15px;
+    font-family: Georgia;
+
+    
+}
+
+p.WORKEXPEREINCE { 
+    color: #9b7575;
+    margin: auto; 
+    width: 50%; 
+    padding: -2%; 
+    font-size: 15px;
+    font-family: Georgia;
+
+}
+
+
+p.s2 {
+    margin: auto; 
+    width: 50%; 
+    margin-bottom: 1%;
+    padding: 1%;
+    margin-top: -1%;
+    font-size: 15px;
+    font-family: Georgia;
+    line-height: 20px;
+
+
+}
+
+p.NFT {
+    margin: auto; 
+    width: 50%; 
+    padding: -2%; 
+    font-size: 15px;
+    font-family: Georgia;
+    margin-top: -1%;
+
+}
+.b {
+    display: block;
+    padding: 3%;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+button {
+
+        display: inline;
+        margin-right: auto;
+        background: rgba(255, 247, 247, 0.686);
+        padding: 10px;
+        border-radius: 10%;
+        cursor: pointer;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
+        border: 0;
+
+    
+   
+}
+
+button:focus { 
+    outline: none; 
+}
+
+
+button:hover {
+    opacity: 0.5;
+}
+
+
+@media (max-width: 900px) {
+    .b {
+        margin-top: auto;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .b {
+        margin-top: auto;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+
+}
+ 
